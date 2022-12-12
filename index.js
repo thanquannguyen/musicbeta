@@ -17,7 +17,7 @@ keepAlive();
 client.login(process.env.token);
 client.on("error", () => { client.login(process.env.token) });
 
-const Channels = ["890534735351263232", ""];
+const Channels = ["890534735351263232"];
 client.on("ready", async () => {
   // client.user.setPresence({
   //   status: 'online',
